@@ -1,0 +1,396 @@
+campaignTrail_temp.election_json = [
+  {
+      "model": "campaign_trail.election",
+      "pk": 20,
+      "fields": {
+          "year": 2016,
+          "summary": "<p style=\"display:inline\"> As Taylor Swift was inaugurated on January 20, 2029, Donald Trump boarded a plane to Dallas, Texas to return from his three-year exile, in hope of riling up his supporters. This was effective, and Red states rallied behind him, promising to resist the \"illegitimate\" president. This worked for weeks, until Trump died of a heart attack at the age of 83, in a room with only Tucker Carlson and his son, Donald Trump Jr. Each claims he named them as his succesor on his deathbed.</p>\n\n<p>Facing pressure from both the MAGA base and Swift's federal government, the divided Republicans signed the treaty of Ann Arbor, dividing the United States into two nations under an economic union. Premier Swift, under a new parliamentary constitution, promises to start fresh. She has called a snap election and is challenged by those who would propose a return to the old constitution.</p>",
+          "image_url": "https://raw.githubusercontent.com/1989Modder/Swift2030/main/political_taylor_swift_2.jpg",
+          "winning_electoral_vote_number": 270,
+          "advisor_url": "https://www.jetsimon.com/public/static/images/bannon-mook-2016.jpg",
+          "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Articles</h4>FiveThirtyEight - <a href=\"http://projects.fivethirtyeight.com/2016-swing-the-election/\" target=\"_blank\"> What Would It Take To Turn Blue States Red?</a></br><a href=\"http://thehill.com/blogs/ballot-box/presidential-races/274317-anti-trump-forces-point-to-losing-match-ups-with-clinton\">Anti-Trump forces seize on grim polls for Clinton match-up</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/02/24/donald_trump_could_beat_hillary_clinton_in_the_general.html\">Think Hillary Clinton Will Crush Donald Trump in the General Election? Don’t Be So Sure.</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/03/01/hillary_clinton_plots_her_general_election_trump_strategy.html\">How Team Clinton Is Planning to Defeat Trump</a></br><a href=\"http://www.vox.com/2016/2/10/10961324/donald-trump-win-november\">Here's Donald Trump's Best Strategy for Winning the White House</a><h4>Books</h4>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1476751471/amhius20-20\" target=\"_blank\">Hard Choices</a></br>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0743222253/amhius20-20\" target=\"_blank\">Living History</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1501137964/amhius20-20\" target=\"_blank\">Crippled America: How to Make America Great Again</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0399594493/amhius20-20\" target=\"_blank\">The Art of the Deal</a></br>\nGary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a>",
+          "has_visits": 1,
+          "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+          "creator": "Dan Bryan",
+          "display_year": "2030S"
+      }
+  }
+]
+
+campaignTrail_temp.candidate_json = [
+  {
+      "model": "campaign_trail.candidate",
+      "pk": 200,
+      "fields": {
+          "first_name": "Taylor",
+          "last_name": "Swift",
+          "election": 20,
+          "party": "Speak Now",
+          "state": "Pennsylvania",
+          "priority": 1,
+          "description": "<p>Taylor Swift was presented with an array of bad options upon Trump's return: political repression to stem the tide of Trumpist separatism, or allowing the problem to fester. She thought she had caught a break when he passed away, and Republicans agreed to partition the country amidst their schism, but it only got worse from there.</p>\n\n<p>Despite the economic deal signed at Ann Arbor, millions of Americans have left their homes for the other side of the border, creating massive shortages of blue-collar workers in Swift's American Democratic Nation (ADN), and the same is true of white-collar professionals in the American Constitutional Union, the MAGA faction's \nterritory.</p>\n\n<p>All conservative parties have been banned, and former Republicans have been permitted to vote absentee in Red-state elections instead. However, Swift did not create the unity she expected, simply a new divisions. She will be forced to convince Americans that the recent economic and political chaos was worth it, and that she can lead the ADN ahead without the Red States. Swift's faction, \"Speak Now\", advocates for peace with the ACU, the preservation of the Swift Constitution, and internal unity. </p>",
+          "color_hex": "#fb00ff",
+          "secondary_color_hex": "#FFA0A0",
+          "is_active": 1,
+          "image_url": "https://s.yimg.com/ny/api/res/1.2/gdF2yTOF3QYV9F4zY.79Fw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTgwNw--/https://media.zenfs.com/en/theblast_73/2c5f1b11ea5bbecbb4547795f385944c",
+          "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>",
+          "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>",
+          "no_electoral_majority_message": "<h3>Wow! You have pulled out 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>",
+          "description_as_running_mate": "'",
+          "candidate_score": 1,
+          "running_mate": false
+      }
+  },
+  {
+      "model": "campaign_trail.candidate",
+      "pk": 201,
+      "fields": {
+          "first_name": "Maggie",
+          "last_name": "Hassan",
+          "election": 20,
+          "party": "Reunification",
+          "state": "New Hampshire",
+          "priority": 2,
+          "description": "<p>\"Have we traded one authoritarian cult of personality for another?\"</p>\n\n<p>These were the words Maggie Hassan spoke at a rally days after Premier Swift announced the snap election.</p>",
+          "color_hex": "#eeff00",
+          "secondary_color_hex": "#90C0FF",
+          "is_active": 1,
+          "image_url": "https://s1.r29static.com/bin/entry/004/720x864,85/2124229/image.webp",
+          "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>",
+          "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+          "no_electoral_majority_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+          "description_as_running_mate": "'",
+          "candidate_score": 1,
+          "running_mate": false
+      }
+  }
+]
+
+campaignTrail_temp.running_mate_json = []
+
+campaignTrail_temp.credits = "1989 Rayna"
+
+campaignTrail_temp.global_parameter_json = [
+  {
+      "model": "campaign_trail.global_parameter",
+      "pk": 1,
+      "fields": {
+          "vote_variable": 1.125,
+          "max_swing": 0.12,
+          "start_point": 0.94,
+          "candidate_issue_weight": 10,
+          "running_mate_issue_weight": 3,
+          "issue_stance_1_max": -0.71,
+          "issue_stance_2_max": -0.3,
+          "issue_stance_3_max": -0.125,
+          "issue_stance_4_max": 0.125,
+          "issue_stance_5_max": 0.3,
+          "issue_stance_6_max": 0.71,
+          "global_variance": 0.01,
+          "state_variance": 0.005,
+          "question_count": 48,
+          "default_map_color_hex": "#C9C9C9",
+          "no_state_map_color_hex": "#999999"
+      }
+  }
+]
+
+campaignTrail_temp.opponents_default_json = [
+  {
+      "election": 20,
+      "candidates": [
+          200,
+          201
+      ]
+  }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+  {
+      "election": 20,
+      "candidates": [
+          200,
+          201
+      ]
+  }
+]
+
+campaignTrail_temp.temp_election_list = [
+  {
+      "id": 20,
+      "year": 2016,
+      "is_premium": 0,
+      "display_year": "2030S"
+  }
+]
+
+jet_data = {
+  "headerColor": "#6e0070",
+  "windowColor": "#e68aff",
+  "containerColor": "#e999ff",
+  "innerWindowColor": "#ff9ee5",
+  "bannerImageUrl": "https://raw.githubusercontent.com/1989Modder/Swift2030/main/Cruel%20Summer.png",
+  "backgroundImageUrl": "https://raw.githubusercontent.com/1989Modder/Swift2030/main/vergil-tasev-blg1.gif",
+  "endingTextColor": "#000000",
+  "customQuote": "\"No Deal, The 1950s Shit They Want From Me!\"",
+  "gameTitle": "CRUEL SUMMER"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>CRUEL SUMMER</h2><font id="wittyquote" size="4" color="white"><em>"No Deal, The 1950s Shit They Want From Me!"</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#6e0070";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#e68aff";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#e999ff";
+
+document.getElementById("header").src = "https://raw.githubusercontent.com/1989Modder/Swift2030/main/Cruel%20Summer.png";
+
+document.body.background = "https://raw.githubusercontent.com/1989Modder/Swift2030/main/vergil-tasev-blg1.gif";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ff9ee5!important;}</style>";
+
+$("#music_player")[0].children[0].style.display="none"
+$("#music_player")[0].children[1].style.display="none"
+
+document.getElementById("modLoadReveal").style.display="none"
+document.getElementById("modloaddiv").style.display="none"
+
+musicBox = document.getElementById("music_player")
+musicBox.style.display=""
+
+var trackSel;
+e = campaignTrail_temp
+e.selectedSoundtrack = 0
+
+toTime = (seconds) => {
+  var date = new Date(null);
+  date.setSeconds(seconds);
+  return date.toISOString().substr(11, 8);
+}
+
+generateTime = () => {
+    // Get the audio element
+    var audio = document.getElementById("campaigntrailmusic");
+
+    timeTracker = document.createElement("div");
+    timeTracker.style = `
+      text-align:left;
+      border-style:solid;
+      border-width:3px;
+      height:150px;
+      width:200px;
+      background-color:#999999;
+      float:right;
+      padding: 10px;
+    `
+    $("#trackSelParent")[0].prepend(timeTracker);
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+    // Create a new element to display the current position of the audio
+    var positionDisplay = document.createElement("gg");
+    positionDisplay.id = "position-display";
+
+    // Create a new slider element to change the time
+    var timeSlider = document.createElement("input");
+    timeSlider.type = "range";
+    timeSlider.min = 0;
+    timeSlider.max = 1;
+    timeSlider.step = 0.001;
+    timeSlider.value = 0;
+    timeSlider.style.width = "200px";
+    timeSlider.id = "time-slider";
+
+    var pausePlay = document.createElement("button");
+    pausePlay.id = "position-display";
+    pausePlay.innerHTML = "<b>Pause</b>"
+    pausePlay.style.width = "100%";
+
+
+    pausePlay.addEventListener("click", event => {
+      event.preventDefault();
+      updatePositionDisplay();
+      let audio = document.getElementById("campaigntrailmusic");
+      if (audio.paused) {
+        audio.play();
+        event.target.innerHTML = "<b>Pause</b>";
+        return;
+      }
+      audio.pause();
+      event.target.innerHTML = "<b>Play</b>";
+      return;
+    })
+
+    var volumeLabel = document.createElement("gg");
+    volumeLabel.id = "volume-label";
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+    var volumeSlider = document.createElement("input");
+    volumeSlider.type = "range";
+    volumeSlider.min = 0;
+    volumeSlider.max = 1;
+    volumeSlider.step = 0.001;
+    volumeSlider.value = 0;
+    volumeSlider.style.width = "200px";
+    volumeSlider.id = "volume-slider";
+
+    volumeSlider.value = audio.volume;
+
+    timeTracker.appendChild(pausePlay);
+    timeTracker.appendChild(document.createElement("br"));
+    timeTracker.appendChild(document.createElement("br"));
+    timeTracker.appendChild(positionDisplay);
+    timeTracker.appendChild(timeSlider);
+    timeTracker.appendChild(volumeLabel);
+    timeTracker.appendChild(volumeSlider);
+
+    updatePositionDisplay();
+
+    //for (let i = 0; i < 10; i++)
+    //timeTracker.append(document.createElement("br"));
+
+
+    // Function to update the position display
+    function updatePositionDisplay() {
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+    }
+
+    // Function to change the time of the audio
+    function changeTime() {
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+      audio.currentTime = timeSlider.value * audio.duration;
+    }
+
+    updateVolume = event => {
+      audio.volume = event.target.value;
+    }
+    
+    // Update the position display and slider every second
+    setInterval(updatePositionDisplay, 1000);
+
+    // Listen for changes to the time slider and change the time of the audio
+    timeSlider.addEventListener("input", changeTime);
+    volumeSlider.addEventListener("input", updateVolume)
+}
+
+function newMusicPlayer() {
+  trackSel = document.createElement("div");
+  trackSel.id = "trackSelParent"
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#999999;float:right;">`
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+  for (i in soundtracks) {
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+    }
+  }
+  z += `</select></b><br><br>`
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+    z += b
+  }
+  z += "</div><br><br>"
+  trackSel.innerHTML = z
+
+  // select correct song
+
+  musicBox.appendChild(trackSel);
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+    return f.tagName == "LABEL"
+  }).map(f=>f.children[0])[0].checked = true
+
+  // set soundtrack changer
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+  soundtrackSelector.onchange = function() {
+    for (i in soundtracks) {
+      if (soundtracks[i].name == soundtrackSelector.value) {
+        e.selectedSoundtrack = i
+        break
+      }
+    }
+    document.getElementById("trackSelParent").remove()
+    newMusicPlayer()
+  }
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+  for (match in matches) {
+    matches[match].onchange = function() {
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+      musicBox.children[2].currentTime = 0
+    }
+  }
+
+  musicBox.children[2].loop = false
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+  musicBox.children[2].onended = function() {
+    console.log("next track")
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+      return f.tagName == "LABEL"
+    }).map(f=>f.children[0])
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+    buttons[newSel].click()
+  }
+
+  for (w = 0; w < 7; w++) {
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+  }
+  
+  generateTime();
+}
+
+clamp = function(a, max, min, overflow=true) {
+  if (overflow) {
+    return a > max ? min : a < min ? max : a;
+  }
+  return a > max ? max : a < min ? min : a;
+}
+
+// Track list
+
+var soundtracks = {
+  0: {
+    name: "Swift",
+    tracklist: [
+      {
+        name: "Taylor Swift - Cruel Summer",
+        url: "https://github.com/1989Modder/Swift2030/raw/main/Taylor%20Swift%20-%20Cruel%20Summer%20(80's%20Version%20Synthwave%20REMIX).mp3",
+      },
+      {
+        name: "Lana Del Rey - Summertime Sadness",
+        url: "https://github.com/1989Modder/Swift2030/raw/main/Lana%20del%20Rey%20-%20Summertime%20Sadness%20(SxAde%20Synthwave%20Version)%20_%2080s.mp3",
+      },
+      {
+        name: "Taylor Swift - Lavender Haze",
+        url: "https://github.com/1989Modder/Swift2030/raw/main/Taylor%20Swift%20-%20Lavender%20Haze%20(80's%20Version%20Synthwave%20REMIX).mp3",
+      },
+      {
+        name: "Marina - Radioactive",
+        url: "https://github.com/1989Modder/Swift2030/raw/main/80s%20remix_%20Marina%20and%20the%20Diamonds%20-%20%20Radioactive%20(1986)%20_%20exile%20synthwave%20remix.mp3",
+      },
+      {
+        name: "Ava Max - Sweet But Psycho",
+        url: "https://github.com/1989Modder/Swift2030/raw/main/80s%20remix_%20Ava%20Max%20-%20Sweet%20but%20Psycho%20(1983)%20_%20exile%20synthwave%20remix.mp3",
+      },
+      {
+        name: "Taylor Swift - Getaway Car",
+        url: "https://github.com/1989Modder/Swift2030/raw/main/Taylor%20swift%20-%20Getaway%20car%20(slowed%20n%20reverb).mp3",
+      },
+    ],
+  },
+}
+newMusicPlayer()

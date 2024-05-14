@@ -1,0 +1,305 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 48,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "summary": "<p style=\"display:inline\"> As Taylor Swift was inaugurated on January 20, 2029, Donald Trump boarded a plane to Dallas, Texas to return from his three-year exile, in hope of riling up his supporters. This was effective, and Red states rallied behind him, promising to resist the \"illegitimate\" president. This worked for weeks, until Trump died of a heart attack at the age of 83, in a room with only Tucker Carlson and his son, Donald Trump Jr. Each claims he named them as his succesor on his deathbed.</p>\n\n<p>Facing pressure from both the MAGA base and Swift's federal government, the divided Republicans signed the treaty of Ann Arbor, dividing the United States into two nations under an economic union. Premier Swift, under a new parliamentary constitution, promises to start fresh. She has called a snap election and is challenged by those who would propose a return to the old constitution.</p>",
+            "image_url": "https://raw.githubusercontent.com/1989Modder/Swift2030/main/political_taylor_swift_2.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/bannon-mook-2016.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Articles</h4>FiveThirtyEight - <a href=\"http://projects.fivethirtyeight.com/2016-swing-the-election/\" target=\"_blank\"> What Would It Take To Turn Blue States Red?</a></br><a href=\"http://thehill.com/blogs/ballot-box/presidential-races/274317-anti-trump-forces-point-to-losing-match-ups-with-clinton\">Anti-Trump forces seize on grim polls for Clinton match-up</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/02/24/donald_trump_could_beat_hillary_clinton_in_the_general.html\">Think Hillary Clinton Will Crush Donald Trump in the General Election? Don’t Be So Sure.</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/03/01/hillary_clinton_plots_her_general_election_trump_strategy.html\">How Team Clinton Is Planning to Defeat Trump</a></br><a href=\"http://www.vox.com/2016/2/10/10961324/donald-trump-win-november\">Here's Donald Trump's Best Strategy for Winning the White House</a><h4>Books</h4>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1476751471/amhius20-20\" target=\"_blank\">Hard Choices</a></br>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0743222253/amhius20-20\" target=\"_blank\">Living History</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1501137964/amhius20-20\" target=\"_blank\">Crippled America: How to Make America Great Again</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0399594493/amhius20-20\" target=\"_blank\">The Art of the Deal</a></br>\nGary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2030S"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "Taylor",
+            "last_name": "Swift",
+            "election": 20,
+            "party": "Speak Now",
+            "state": "Pennsylvania",
+            "priority": 1,
+            "description": "<p>Taylor Swift was presented with an array of bad options upon Trump's return: political repression to stem the tide of Trumpist separatism, or allowing the problem to fester. She thought she had caught a break when he passed away, and Republicans agreed to partition the country amidst their schism, but it only got worse from there.</p>\n\n<p>Despite the economic deal signed at Ann Arbor, millions of Americans have left their homes for the other side of the border, creating massive shortages of blue-collar workers in Swift's American Democratic Nation (ADN), and the same is true of white-collar professionals in the American Constitutional Union, the MAGA faction's \nterritory.</p>\n\n<p>All conservative parties have been banned, and former Republicans have been permitted to vote absentee in Red-state elections instead. However, Swift did not create the unity she expected, simply a new divisions. She will be forced to convince Americans that the recent economic and political chaos was worth it, and that she can lead the ADN ahead without the Red States. Swift's faction, \"Speak Now\", advocates for peace with the ACU, the preservation of the Swift Constitution, and internal unity. </p>",
+            "color_hex": "#fb00ff",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://s.yimg.com/ny/api/res/1.2/gdF2yTOF3QYV9F4zY.79Fw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTgwNw--/https://media.zenfs.com/en/theblast_73/2c5f1b11ea5bbecbb4547795f385944c",
+            "electoral_victory_message": "<h3>Congratulations! Speak Now has won the 2030 Snap Election.</h3><p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>",
+            "no_electoral_majority_message": "<h3>Perhaps this is the expected outcome.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "Maggie",
+            "last_name": "Hassan",
+            "election": 20,
+            "party": "Reunification",
+            "state": "New Hampshire",
+            "priority": 2,
+            "description": "<p>\"What do we call someone who lets dictator-loving scum steal half of our country? A traitor, that's what we call them. \"</p>\n\n<p>These were the words Maggie Hassan spoke at a rally days after Premier Swift announced the snap election. Hassan is at the forefront of the newly-formed Reunification party, dedicated to the reclamation of the territories lost at Ann Arbor by any means necessary. Reunification strongly favors disenfranchising all supporters of the MAGA movement and instituting a sort of \"denazification\" regime in the pursuit of defeating the ACU permanently. Nevertheless, Hassan endorses a general return to the old US constitution, if not as firmly as the New Democrats. Hassan is expected to lean heavily on the legacy of the Union in the first Civil War,  while advocating to start a second. She will rely on older liberals and moderate democrats, loyal to America's political tradition but strongly anti-Republican. ",
+            "color_hex": "#eeff00",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://s1.r29static.com/bin/entry/004/720x864,85/2124229/image.webp",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "Hakeem",
+            "last_name": "Jeffries",
+            "election": 20,
+            "party": "New Democratic",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Hakeem Jeffries was the Interim President between Trump's abdication in the April Revolution in 2026, and Swift's January 2029 inauguration. He has stayed on good terms with Swift since then, and returned to the new National Assembly as an acting Representative from New York. Now, however, he has founded the New Democratic Party, a faction consisting of Democrats who favor a return to the old constitution, but oppose Reunification's desire to take back the whole country by force. </p>\n\n<p>Jeffries will need to depict Swift as a rash, destabilizing force; he will also seek to condemn her new constitution as unamerican and authoritarian. Meanwhile, he will have to convince voters that a peaceful path to the return of the USA is better than Reunification's violent plans. All in all, Jeffries will seek to portray himself as a return to normalcy.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Rep-Hakeem-Jeffries-Official-Portrait.jpg/1200px-Rep-Hakeem-Jeffries-Official-Portrait.jpg",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "Alexandria",
+            "last_name": "Ocasio-Cortez",
+            "election": 20,
+            "party": "Social Democratic Party",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Unlike Jeffries and Hassan, Ocasio-Cortez does not firmly oppose the Swift constitution. In fact, constitutional issues will not be a major topic in her campaign at all. Instead, she aims to bring about an economic plan that, in her view, will end the recent jobs crisis. Ocasio-Cortez advocates for a massive expansion of the welfare state, seizing the opportunity now that the conservative opposition is gone and the population is low enough to sustain programs like Medicare for All much more easily.  </p>\n\n<p>No matter how one slices it, Ocasio-Cortez and Swift essentially agree on most things besides the economy: they both favor peace with the ACU, a new constitution, and very liberal/progressive social values. Ocasio-Cortez will have to differentiate herself by showing a more leftist solution to the economic chaos of the moment.  </p>",
+            "color_hex": "#018e32",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://portside.org/sites/default/files/styles/large/public/field/image/Alexandria_Ocasio-Cortez_in_Chile2.JPG",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 204,
+        "fields": {
+            "first_name": "Speak",
+            "last_name": "Now",
+            "election": 20,
+            "party": "Speak Now",
+            "state": "N/A",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://m.media-amazon.com/images/I/71+q4wh2+YL._UF1000,1000_QL80_.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Rather than choosing a running mate, under the new constitution, candidates simply run under their parties for premier. It's in essence a personalistic parliament, and your party, named for your 2010 hit album, reflects this. Your party will have unmatched human resources, as your fans span generations and are unmatched in loyalty, except perhaps by that of those fools across the border with the ACU. </p>\n\nThe other candidates, clutching on to the old ways, have nominated traditional running mates, foreseeing a return to the Presidential system. It's your turn to prove them wrong.   ",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 205,
+        "fields": {
+            "first_name": "Bob",
+            "last_name": "Casey",
+            "election": 20,
+            "party": "Reunification",
+            "state": "Pennsylvania",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Bob_Casey_Jr._official_photo.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p> A Pennsylvania fan favorite, elected with large margins each time he ran for Senate, Bob Casey has been one of the most forceful voices for the use of the military against the ACU. Casey has repeatedly and forcefully condemned Swift's extensive changes to the country's structure. Casey has extensive experience and some name recognition, and much of the Reunification base is strongly in favor of his selection for VP. </p> \n\n<p>Unfortunately, Casey is old, white, and moderate just like you. This will severely harm your ability to expand beyond the expected Reunification base, consisting primarily of suburbanites and wealthy urban voters. He is also likely to be grilled for his votes for Samuel Alito and John Roberts, members of the former Supreme Court, which many blame for America's decade of humiliation in the 2020s.   </p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 206,
+        "fields": {
+            "first_name": "Terri",
+            "last_name": "Sewell",
+            "election": 20,
+            "party": "Reunification",
+            "state": "Alabama/Illinois",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Terri_Sewell_116th_Congress.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>A longtime House Democrat from Alabama and a true Democratic Party loyalist, Terri Sewell fled Alabama to Chicago shortly before the partition. She has risen to prominence in the Reunification party by advocating for the reclamation of ACU territory and the cancellation of the Treaty of Ann Arbor.</p>\n\n<p>As a friend of the Obamas, a favorite of the former Democratic Party establishment, and part of one of the exiled Democratic groups (Black Democrats in the South), Sewell will appeal  across a number of voter blocs otherwise at risk of choosing the New Democratic Party. Some signs of party bona fides will keep some voters in the fold who see you as having been too bipartisan and moderate during the early '20s. However, Sewell is also a lifelong politician and won't do much to remedy the image of Reunification being run by stiff, wooden politicos.  <p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 105848,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 204
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 129120,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 205
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 156587,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 206
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Synthetic Rayna"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2030S"
+    }
+]
+
+jet_data = {
+    "headerColor": "#6e0070",
+    "windowColor": "#e68aff",
+    "containerColor": "#e999ff",
+    "innerWindowColor": "#ff9ee5",
+    "bannerImageUrl": "https://github.com/1989Modder/Swift2030/blob/main/Cruel%20Summer.png?raw=true",
+    "backgroundImageUrl": "https://github.com/1989Modder/Swift2030/blob/main/vergil-tasev-blg1.gif?raw=true",
+    "endingTextColor": "#000000",
+    "customQuote": "\"No Deal, The 1950s Shit They Want From Me!\"",
+    "gameTitle": "CRUEL SUMMER"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>CRUEL SUMMER</h2><font id="wittyquote" size="4" color="white"><em>"No Deal, The 1950s Shit They Want From Me!"</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#6e0070";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#e68aff";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#e999ff";
+
+document.getElementById("header").src = "https://github.com/1989Modder/Swift2030/blob/main/Cruel%20Summer.png?raw=true";
+
+document.body.background = "https://github.com/1989Modder/Swift2030/blob/main/vergil-tasev-blg1.gif?raw=true";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ff9ee5!important;}</style>";
+
+//#endcode
